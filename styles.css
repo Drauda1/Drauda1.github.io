@@ -1,0 +1,40 @@
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+select, input {
+    padding: 8px;
+    margin-top: 5px;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.spacer {
+    width: 400px;
+    height: 2px; /* Thin and modern */
+    background-color: #243db8; /* Subtle neutral color */
+    margin: 20px auto; /* Adds space above and below, centers horizontally */
+    border-radius: 1px; /* Smooth edges */
+}
+
+#output {
+    width: 400px;
+}
+
+#createUTM {
+    width: 400PX;
+}
+
+.button-spacer{
+    width: 400px;
+    height: 2px; /* Thin and modern */
+    background-color: #556ce1; /* Subtle neutral color */
+    margin: 10px auto; /* Adds space above and below, centers horizontally */
+    border-radius: 1px; /* Smooth edges */
+}
