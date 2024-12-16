@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="module" src="./scripts/main.js"></script>
+        <script type="module" src="./scripts/fieldDependencies.js"></script>
+        <link href="/styles/styles.css" rel="stylesheet">
+        <title>Hierarchical Dependencies Form</title>
+    </head>
+    <body>
+        <form id="basicInfo">
+            <label for="campaignName">Campaign Name:</label>
+            <input type="text" id="campaignName" name="campaignName" placeholder="Type something..." />
+            <label for="finalURL">Final URL</label>
+            <input type="text" id="finalURL" name="finalURL" placeholder="Type something..." />
+        </form>
+        <div class="spacer"></div>
+        <form id="UTMForm">
+        <!-- Ad Platform -->
+        <div id="section1">
+            <div class="flexContainer">
+                <label for="adPlatform">Ad Platform</label>
+                <select id="adPlatform" name="adPlatform">
+                    <option value="">Select Ad Platform</option>
+                    <option value="linkedin">LinkedIn</option>
+                    <option value="google">Google</option>
+                    <option value="meta">Meta</option>
+                    <option value="bing">Bing</option>
+                </select>
+            </div>
+
+            <!-- Campaign Type -->
+            <div class="flexContainer">
+                <label for="campaignType">Campaign Type</label>
+                <select id="campaignType" name="campaignType" disabled>
+                    <option value="">Select Campaign Type</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Ad Type -->
+        <div id="section2">
+            <label for="adType">Ad Type</label>
+            <select id="adType" name="adType" disabled>
+                <option value="">Select Ad Type</option>
+            </select>
+
+            <!-- Ad Placement -->
+            <label for="placements">Ad Placement</label>
+            <select id="placements" name="placements" disabled>
+                <option value="">Select Ad Placement</option>
+            </select>
+            </form>
+        </div>
+
+        <div class="spacer"></div>
+        <form id="finalParameters">
+            <label for="biddingStrat">Additional Parameters</label>
+            <select id="biddingStrat" name="biddingStrat">
+                <option value="">Select Bidding Strategy</option>
+                <option value="troas">tROAS</option>
+                <option value="tcpa">tCPA</option>
+                <option value="cpcb">CPC</option>
+                <option value="cpmb">CPM</option>
+                <option value="cpvb">CPV</option>
+                <option value="cpab">CPA</option>
+            </select>
+            <select id="audienceType" name="audienceType">
+                <option value="">Select Audience Type</option>
+                <option value="lala">Lookalike</option>
+                <option value="rmaa">Remarketing</option>
+                <option value="intr">Interests Based</option>
+                <option value="keyw">Keyword Based</option>
+                <option value="inmk">In-Market</option>
+                <option value="pblal">Pixel Based LAL</option>
+                <option value="pbrmk">Pixel Based RMK</option>
+            </select>
+            <select id="messaging" name="messaging">
+                <option value="">Select Messaging</option>
+                <option value="csty">Case Study</option>
+                <option value="info">Infographic</option>
+                <option value="valu">Value</option>
+                <option value="aspi">Aspirational</option>
+            </select>
+            <select id="solution" name="solution">
+                <option value="">Select Product Family</option>
+                <option value="shopkick">Shopkick</option>
+                <option value="cpg">CPG</option>
+                <option value="dmx">DMX</option>
+                <option value="gotham">Gotham</option>
+                <option value="retailWatch">Retail Watch</option>
+            </select>
+            <!-- Submit Button -->
+            <div class="button-spacer"></div>
+            <button id="createUTM" type="submit" disabled="true">Submit</button>
+            <div class="button-spacer"></div>
+            <textarea id="output" rows="10" cols="50"></textarea>
+        </form>
+    </body>
+</html>
