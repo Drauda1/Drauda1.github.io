@@ -12,6 +12,7 @@ function populateOptions(selectElement, options) {
 			const option = document.createElement("option");
 			option.value = options[key].value;
 			option.textContent = options[key].label;
+            option.label = options[key].label;
 			selectElement.appendChild(option);
 		}
 	});
@@ -71,10 +72,11 @@ function objectSlicer(formSelector) {
     fields.forEach(field => {
         // Check if the field is enabled and has an ID
         if (!field.disabled && field.id && field.value) {
-            result.push(field.id, field.value); // Add field ID and value to the list
+            result.push(field.id, field.selectedOptions[0]?.label); // Add field ID and value to the list
         }
     });
 
+    console.log("SLICER IS: " + result);
     return result;
 }
 
