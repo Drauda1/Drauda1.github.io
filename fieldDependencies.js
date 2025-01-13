@@ -1,836 +1,835 @@
 const fieldDependencies = {
 	adPlatform: {
-		linkedin: {
+		LinkedIn: {
 			label: "LinkedIn",
 			value: "linkedin",
 			campaignType: {
-				sponsoredContent: {
+				SponsoredContent: {
 					label: "SponsoredContent",
-					value: "sponsoredContent",
+					value: "spco",
 					adType: {
-						singleImage: {
+						SingleImage: {
 							label: "SingleImage",
-							value: "singleImage",
+							value: "siim",
 							placements: {
-								feed: { label: "Feed", value: "feed" },
+								Feed: { label: "Feed", value: "fdfe" },
 							}
 						},
-						video: {
+						Video: {
 							label: "Video",
-							value: "video",
+							value: "vovi",
 							placements: {
-								feed: { label: "Feed", value: "feed" }
+								Feed: { label: "Feed", value: "fdfe" }
 							}
 						},
-						carousel: {
+						Carousel: {
 							label: "Carousel",
-							value: "carousel",
+							value: "clca",
 							placements: {
-								feed: { label: "Feed", value: "feed" }
+								Feed: { label: "Feed", value: "fdfe" }
 							}
 						},
-						event: {
+						Event: {
 							label: "Event",
-							value: "event",
+							value: "etev",
 							placements: {
-								feed: { label: "Feed", value: "feed" }
+								feed: { label: "Feed", value: "fdfe" }
 							}
 						},
-						document: {
+						Document: {
 							label: "Document",
-							value: "document",
+							value: "dtdo",
 							placements: {
-								feed: { label: "Feed", value: "feed" }
+								Feed: { label: "Feed", value: "fdfe" }
 							}
 						},
-						thoughtLeader: {
+						ThoughtLeader: {
 							label: "ThoughtLeader",
-							value: "thoughtLeader",
+							value: "trth",
 							placements: {
-								feed: { label: "Feed", value: "feed" }
+								Feed: { label: "Feed", value: "fdfe" }
 							}
 						},
-						message: {
+						Message: {
 							label: "Message",
-							value: "message",
+							value: "meme",
 							placements: {
-								feed: { label: "Feed", value: "feed" }
+								Feed: { label: "Feed", value: "fdfe" }
 							}
 						},
-						connectedTV: {
+						ConnectedTV: {
 							label: "ConnectedTV",
-							value: "connectedTV",
+							value: "cotv",
 							placements: {
-								tvStreamingContent: {
-									label: "TV Streaming Content",
-									value: "tvStreamingContent"
+								TVStreamingContent: {
+									label: "TVStreamingContent",
+									value: "tttv"
 								}
 							}
 						}
 					}
 				},
-				sponsoredMessaging: {
+				SponsoredMessaging: {
 					label: "SponsoredMessaging",
-					value: "sponsoredMessaging",
+					value: "spme",
 					adType: {
-						conversation: {
+						Conversation: {
 							label: "Conversation",
-							value: "conversation",
+							value: "cnco",
 							placements: {
-								messages: { label: "Messages", value: "messages" }
+								Messages: { label: "Messages", value: "msme" }
 							}
 						},
-						message: {
+						Message: {
 							label: "Message",
-							value: "message",
+							value: "meme",
 							placements: {
-								messages: { label: "Messages", value: "messages" }
+								Messages: { label: "Messages", value: "msme" }
 							}
 						}
 					}
 				},
-				leadGen: {
+				LeadGen: {
 					label: "LeadGen",
-					value: "leadGen",
+					value: "lege",
 					adType: {
-						leadGen: {
+						LeadGen: {
 							label: "LeadGen",
-							value: "leadGen",
+							value: "lege",
 							placements: {
-								feed: { label: "Feed", value: "feed" },
-								messages: { label: "Messages", value: "messages" }
+								Feed: { label: "Feed", value: "fdfe" },
+								Messages: { label: "Messages", value: "msme" }
 							}
 						}
 					}
 				},
-				textDynamic: {
+				TextDynamic: {
 					label: "TextDynamic",
-					value: "textDynamic",
+					value: "tedy",
 					adType: {
-						text: {
+						Text: {
 							label: "Text",
-							value: "text",
+							value: "ttte",
 							placements: {
-								rightRail: { label: "Right Rail", value: "rightRail" }
+								RightRail: { label: "RightRail", value: "rira" }
 							}
 						},
-						spotlight: {
+						Spotlight: {
 							label: "Spotlight",
-							value: "spotlight",
+							value: "stsp",
 							placements: {
-								rightRail: { label: "Right Rail", value: "rightRail" }
+								RightRail: { label: "RightRail", value: "rira" }
 							}
 						},
-						followers: {
+						Followers: {
 							label: "Followers",
-							value: "followers",
+							value: "fsfo",
 							placements: {
-								rightRail: { label: "Right Rail", value: "rightRail" }
+								RightRail: { label: "RightRail", value: "rira" }
 							},
 						},
 					},
 				},
 			},
 		},
-		google: {
-			label: "Google Ads",
-			value: "gads",
+		Google: {
+			label: "Google",
+			value: "google",
 			campaignType: {
-				search: {
+				Search: {
 					label: "Search",
-					value: "search",
+					value: "shse",
 					adType: {
-						responsive: {
+						Responsive: {
 							label: "Responsive",
-							value: "responsive",
+							value: "rere",
 							placements: {
-								googleOnly: { label: "Google Only", value: "googleOnly" },
-								searchNetwork: { label: "Search Network", value: "searchNetwork" },
+								GoogleOnly: { label: "GoogleOnly", value: "gygo" },
+								SearchNetwork: { label: "SearchNetwork", value: "sene" },
 							},
 						},
-						dynamic: {
+						Dynamic: {
 							label: "Dynamic",
-							value: "dynamic",
+							value: "dcdy",
 							placements: {
-								googleOnly: { label: "Google Only", value: "googleOnly" },
-								searchNetwork: { label: "Search Network", value: "searchNetwork" },
+								GoogleOnly: { label: "GoogleOnly", value: "gygo" },
+								SearchNetwork: { label: "SearchNetwork", value: "sene" },
 							},
 						},
-						callOnly: {
-							label: "Call Only",
-							value: "callOnly",
+						CallOnly: {
+							label: "CallOnly",
+							value: "caon",
 							placements: {
-								googleOnly: { label: "Google Only", value: "googleOnly" },
-								searchNetwork: { label: "Search Network", value: "searchNetwork" },
+								GoogleOnly: { label: "GoogleOnly", value: "gygo" },
+								SearchNetwork: { label: "SearchNetwork", value: "sene" },
 							},
 						},
 					},
 				},
-				disp: {
+				Display: {
 					label: "Display",
-					value: "disp",
+					value: "dydi",
 					adType: {
-						static: {
+						Static: {
 							label: "Static",
-							value: "static",
+							value: "scst",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								websites: { label: "Websites", value: "websites" },
-								youtubeVideos: { label: "YouTube Videos", value: "youtubeVideos" },
-								youtubeChannels: { label: "YouTube Channels", value: "youtubeChannels" },
-								apps: { label: "Apps", value: "apps" },
-								appCategories: { label: "App Categories", value: "appCategories" },
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Websites: { label: "Websites", value: "wswe" },
+								YoutubeVideos: { label: "YouTubeVideos", value: "yovi" },
+								YoutubeChannels: { label: "YouTubeChannels", value: "yoch" },
+								Apps: { label: "Apps", value: "asap" },
+								AppCategories: { label: "AppCategories", value: "apca" },
 							},
 						},
-						responsive: {
+						Responsive: {
 							label: "Responsive",
-							value: "responsive",
+							value: "rere",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								websites: { label: "Websites", value: "websites" },
-								youtubeVideos: { label: "YouTube Videos", value: "youtubeVideos" },
-								youtubeChannels: { label: "YouTube Channels", value: "youtubeChannels" },
-								apps: { label: "Apps", value: "apps" },
-								appCategories: { label: "App Categories", value: "appCategories" },
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Websites: { label: "Websites", value: "wswe" },
+								YoutubeVideos: { label: "YouTubeVideos", value: "yovi" },
+								YoutubeChannels: { label: "YouTubeChannels", value: "yoch" },
+								Apps: { label: "Apps", value: "asap" },
+								AppCategories: { label: "AppCategories", value: "apca" },
 							},
 						},
-						dynamic: {
+						Dynamic: {
 							label: "Dynamic",
-							value: "dynamic",
+							value: "dcdy",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								websites: { label: "Websites", value: "websites" },
-								youtubeVideos: { label: "YouTube Videos", value: "youtubeVideos" },
-								youtubeChannels: { label: "YouTube Channels", value: "youtubeChannels" },
-								apps: { label: "Apps", value: "apps" },
-								appCategories: { label: "App Categories", value: "appCategories" },
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Websites: { label: "Websites", value: "wswe" },
+								YoutubeVideos: { label: "YouTubeVideos", value: "yovi" },
+								YoutubeChannels: { label: "YouTubeChannels", value: "yoch" },
+								Apps: { label: "Apps", value: "asap" },
+								AppCategories: { label: "AppCategories", value: "apca" },
 							},
 						},
-						html5: {
+						HTML5: {
 							label: "HTML5",
-							value: "html5",
+							value: "h5ht",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								websites: { label: "Websites", value: "websites" },
-								youtubeVideos: { label: "YouTube Videos", value: "youtubeVideos" },
-								youtubeChannels: { label: "YouTube Channels", value: "youtubeChannels" },
-								apps: { label: "Apps", value: "apps" },
-								appCategories: { label: "App Categories", value: "appCategories" },
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Websites: { label: "Websites", value: "wswe" },
+								YoutubeVideos: { label: "YouTubeVideos", value: "yovi" },
+								YoutubeChannels: { label: "YouTubeChannels", value: "yoch" },
+								Apps: { label: "Apps", value: "asap" },
+								AppCategories: { label: "AppCategories", value: "apca" },
 							},
 						},
 					},
 				},
-				shopping: {
+				Shopping: {
 					label: "Shopping",
-					value: "shopping",
+					value: "sgsh",
 					adType: {
-						productShopping: {
-							label: "Product Shopping",
-							value: "productShopping",
+						ProductShopping: {
+							label: "ProductShopping",
+							value: "pgpr",
 							placements: {
-								withPartners: { label: "Multiplacement with Search Partners", value: "withPartners" },
-								withoutPartners: { label: "Multiplacement without Search Partners", value: "withoutPartners" },
+								SearchPartners: { label: "SearchPartners", value: "sepa" },
+								NoSearchPartners: { label: "NoSearchPartners", value: "nose" },
 							},
 						},
-						localInventory: {
-							label: "Local Inventory",
-							value: "localInventory",
+						LocalInventory: {
+							label: "LocalInventory",
+							value: "lylo",
 							placements: {
-								maps: { label: "Maps", value: "maps" },
+								Maps: { label: "Maps", value: "msma" },
 							},
 						},
 					},
 				},
 				app: {
 					label: "App",
-					value: "app",
+					value: "apap",
 					adType: {
-						app: {
+						App: {
 							label: "App",
-							value: "app",
+							value: "apap",
 							placements: {
-								discoveryNetwork: { label: "Discovery Network", value: "discoveryNetwork" },
+								DiscoveryNetwork: { label: "DiscoveryNetwork", value: "dine" },
 							},
 						},
 					},
 				},
-				demandGen: {
-					label: "Demand Gen",
-					value: "demandGen",
+				DemandGen: {
+					label: "DemandGen",
+					value: "dnde",
 					adType: {
-						singleImage: {
-							label: "Single Image",
-							value: "singleImage",
+						SingleImage: {
+							label: "SingleImage",
+							value: "siim",
 							placements: {
-								discoveryNetwork: { label: "Discovery Network", value: "discoveryNetwork" },
+								DiscoveryNetwork: { label: "DiscoveryNetwork", value: "dkdi" },
 							},
 						},
-						carousel: {
+						Carousel: {
 							label: "Carousel",
-							value: "carousel",
+							value: "clca",
 							placements: {
-								discoveryNetwork: { label: "Discovery Network", value: "discoveryNetwork" },
+								DiscoveryNetwork: { label: "DiscoveryNetwork", value: "dkdi" },
 							},
 						},
-						video: {
+						Video: {
 							label: "Video",
-							value: "video",
+							value: "vovi",
 							placements: {
-								discoveryNetwork: { label: "Discovery Network", value: "discoveryNetwork" },
+								DiscoveryNetwork: { label: "DiscoveryNetwork", value: "dkdi" },
 							},
 						},
-						productShopping: {
-							label: "Product Shopping",
-							value: "productShopping",
+						ProductShopping: {
+							label: "ProductShopping",
+							value: "prso",
 							placements: {
-								discoveryNetwork: { label: "Discovery Network", value: "discoveryNetwork" },
+								DiscoveryNetwork: { label: "DiscoveryNetwork", value: "dkdi" },
 							},
 						},
 					},
 				},
-				video: {
+				Video: {
 					label: "Video",
-					value: "video",
+					value: "vovi",
 					adType: {
-						inStream: {
-							label: "In-Stream",
-							value: "inStream",
+						InStream: {
+							label: "InStream",
+							value: "inst",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								websites: { label: "Websites", value: "websites" },
-								youtubeVideos: { label: "YouTube Videos", value: "youtubeVideos" },
-								youtubeChannels: { label: "YouTube Channels", value: "youtubeChannels" },
-								apps: { label: "Apps", value: "apps" },
-								appCategories: { label: "App Categories", value: "appCategories" },
-								performanceMax: { label: "Performance Max", value: "performanceMax" },
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Websites: { label: "Websites", value: "wswe" },
+								YoutubeVideos: { label: "YouTubeVideos", value: "yovi" },
+								YoutubeChannels: { label: "YouTubeChannels", value: "yoch" },
+								Apps: { label: "Apps", value: "asap" },
+								AppCategories: { label: "AppCategories", value: "apca" },
+								PerformanceMax: { label: "PerformanceMax", value: "pema" },
 							},
 						},
 						bumper: {
 							label: "Bumper",
-							value: "bumper",
+							value: "brbu",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								websites: { label: "Websites", value: "websites" },
-								youtubeVideos: { label: "YouTube Videos", value: "youtubeVideos" },
-								youtubeChannels: { label: "YouTube Channels", value: "youtubeChannels" },
-								apps: { label: "Apps", value: "apps" },
-								appCategories: { label: "App Categories", value: "appCategories" },
-								performanceMax: { label: "Performance Max", value: "performanceMax" },
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Websites: { label: "Websites", value: "wswe" },
+								YoutubeVideos: { label: "YouTubeVideos", value: "yovi" },
+								YoutubeChannels: { label: "YouTubeChannels", value: "yoch" },
+								Apps: { label: "Apps", value: "asap" },
+								AppCategories: { label: "AppCategories", value: "apca" },
+								PerformanceMax: { label: "PerformanceMax", value: "pema" },
 							},
 						},
-						inFeed: {
-							label: "In-Feed",
-							value: "inFeed",
+						InFeed: {
+							label: "InFeed",
+							value: "infe",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								websites: { label: "Websites", value: "websites" },
-								youtubeVideos: { label: "YouTube Videos", value: "youtubeVideos" },
-								youtubeChannels: { label: "YouTube Channels", value: "youtubeChannels" },
-								apps: { label: "Apps", value: "apps" },
-								appCategories: { label: "App Categories", value: "appCategories" },
-								performanceMax: { label: "Performance Max", value: "performanceMax" },
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Websites: { label: "Websites", value: "wswe" },
+								YoutubeVideos: { label: "YouTubeVideos", value: "yovi" },
+								YoutubeChannels: { label: "YouTubeChannels", value: "yoch" },
+								Apps: { label: "Apps", value: "asap" },
+								AppCategories: { label: "AppCategories", value: "apca" },
+								PerformanceMax: { label: "PerformanceMax", value: "pema" },
 							},
 						},
-						outstream: {
-							label: "Outstream",
-							value: "outstream",
+						OutStream: {
+							label: "OutStream",
+							value: "oust",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								websites: { label: "Websites", value: "websites" },
-								youtubeVideos: { label: "YouTube Videos", value: "youtubeVideos" },
-								youtubeChannels: { label: "YouTube Channels", value: "youtubeChannels" },
-								apps: { label: "Apps", value: "apps" },
-								appCategories: { label: "App Categories", value: "appCategories" },
-								performanceMax: { label: "Performance Max", value: "performanceMax" },
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Websites: { label: "Websites", value: "wswe" },
+								YoutubeVideos: { label: "YouTubeVideos", value: "yovi" },
+								YoutubeChannels: { label: "YouTubeChannels", value: "yoch" },
+								Apps: { label: "Apps", value: "asap" },
+								AppCategories: { label: "AppCategories", value: "apca" },
+								PerformanceMax: { label: "PerformanceMax", value: "pema" },
 							},
 						},
-						masthead: {
+						Masthead: {
 							label: "Masthead",
-							value: "masthead",
+							value: "mahe",
 							placements: {
-								websites: { label: "Websites", value: "websites" },
-								youtubeVideos: { label: "YouTube Main", value: "youtubeMain" },
-
+								Websites: { label: "Websites", value: "wswe" },
+								YoutubeVideos: { label: "YouTubeVideos", value: "yovi" },
 							},
 						},
 					},
 				},
-				pmax: {
+				Pmax: {
 					label: "Pmax",
-					value: "pmax",
+					value: "pxpm",
 					adType: {
-						pmax: {
+						Pmax: {
 							label: "Pmax",
-							value: "pmax",
+							value: "pxpm",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
 							},
 						},
 					},
 				},
 			},
 		},
-		meta: {
+		Meta: {
 			label: "Meta",
 			value: "meta",
 			campaignType: {
-				awareness: {
+				Awareness: {
 					label: "Awareness",
-					value: "awareness",
+					value: "asaw",
 					adType: {
-						image: {
+						Image: {
 							label: "Image",
-							value: "image",
+							value: "ieim",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								feeds: { label: "Feeds", value: "feeds" },
-								storiesAndReels: { label: "Stories and Reels", value: "storiesAndReels" },
-								instream: { label: "InStream", value: "instream" },
-								search: { label: "Search", value: "search" }
-							}
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Feeds: { label: "Feeds", value: "fsfe" },
+								StoriesAndReels: { label: "StoriesAndReels", value: "stre" },
+								InStream: { label: "InStream", value: "inst" },
+								Search: { label: "Search", value: "shse" }
+							},
 						},
-						video: {
+						Video: {
 							label: "Video",
-							value: "video",
+							value: "vovi",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								feeds: { label: "Feeds", value: "feeds" },
-								storiesAndReels: { label: "Stories and Reels", value: "storiesAndReels" },
-								instream: { label: "InStream", value: "instream" },
-								search: { label: "Search", value: "search" }
-							}
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Feeds: { label: "Feeds", value: "fsfe" },
+								StoriesAndReels: { label: "StoriesAndReels", value: "stre" },
+								InStream: { label: "InStream", value: "inst" },
+								Search: { label: "Search", value: "shse" }
+							},
 						},
-						carousel: {
+						Carousel: {
 							label: "Carousel",
-							value: "carousel",
+							value: "clca",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								feeds: { label: "Feeds", value: "feeds" },
-								storiesAndReels: { label: "Stories and Reels", value: "storiesAndReels" },
-								instream: { label: "InStream", value: "instream" },
-								search: { label: "Search", value: "search" }
-							}
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Feeds: { label: "Feeds", value: "fsfe" },
+								StoriesAndReels: { label: "StoriesAndReels", value: "stre" },
+								InStream: { label: "InStream", value: "inst" },
+								Search: { label: "Search", value: "shse" }
+							},
 						},
-						collection: {
+						Collection: {
 							label: "Collection",
-							value: "collection",
+							value: "cnco",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								feeds: { label: "Feeds", value: "feeds" },
-								storiesAndReels: { label: "Stories and Reels", value: "storiesAndReels" },
-								instream: { label: "InStream", value: "instream" }
-							}
-						}
-					}
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Feeds: { label: "Feeds", value: "fsfe" },
+								StoriesAndReels: { label: "StoriesAndReels", value: "stre" },
+								InStream: { label: "InStream", value: "inst" },
+							},
+						},
+					},
 				},
-				traffic: {
+				Traffic: {
 					label: "Traffic",
-					value: "traffic",
+					value: "tctr",
 					adType: {
-						image: {
+						Image: {
 							label: "Image",
-							value: "image",
+							value: "ieim",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								feeds: { label: "Feeds", value: "feeds" },
-								storiesAndReels: { label: "Stories and Reels", value: "storiesAndReels" },
-								instream: { label: "InStream", value: "instream" },
-								search: { label: "Search", value: "search" },
-								appsAndSites: { label: "Apps and sites", value: "appsAndSites" }
-							}
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Feeds: { label: "Feeds", value: "fsfe" },
+								StoriesAndReels: { label: "StoriesAndReels", value: "stre" },
+								InStream: { label: "InStream", value: "inst" },
+								Search: { label: "Search", value: "shse" },
+								AppsAndSites: { label: "AppsAndSites", value: "apsi" }
+							},
 						},
-						video: {
+						Video: {
 							label: "Video",
-							value: "video",
+							value: "vovi",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								feeds: { label: "Feeds", value: "feeds" },
-								storiesAndReels: { label: "Stories and Reels", value: "storiesAndReels" },
-								instream: { label: "InStream", value: "instream" },
-								search: { label: "Search", value: "search" },
-								appsAndSites: { label: "Apps and sites", value: "appsAndSites" }
-							}
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Feeds: { label: "Feeds", value: "fsfe" },
+								StoriesAndReels: { label: "StoriesAndReels", value: "stre" },
+								InStream: { label: "InStream", value: "inst" },
+								Search: { label: "Search", value: "shse" },
+								AppsAndSites: { label: "AppsAndSites", value: "apsi" }
+							},
 						},
-						carousel: {
+						Carousel: {
 							label: "Carousel",
-							value: "carousel",
+							value: "clca",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								feeds: { label: "Feeds", value: "feeds" },
-								storiesAndReels: { label: "Stories and Reels", value: "storiesAndReels" },
-								instream: { label: "InStream", value: "instream" },
-								search: { label: "Search", value: "search" },
-								appsAndSites: { label: "Apps and sites", value: "appsAndSites" }
-							}
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Feeds: { label: "Feeds", value: "fsfe" },
+								StoriesAndReels: { label: "StoriesAndReels", value: "stre" },
+								InStream: { label: "InStream", value: "inst" },
+								Search: { label: "Search", value: "shse" },
+								AppsAndSites: { label: "AppsAndSites", value: "apsi" }
+							},
 						},
-						collection: {
+						Collection: {
 							label: "Collection",
-							value: "collection",
+							value: "cnco",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								feeds: { label: "Feeds", value: "feeds" },
-								storiesAndReels: { label: "Stories and Reels", value: "storiesAndReels" },
-								instream: { label: "InStream", value: "instream" },
-								appsAndSites: { label: "Apps and sites", value: "appsAndSites" }
-							}
-						}
-					}
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Feeds: { label: "Feeds", value: "fsfe" },
+								StoriesAndReels: { label: "StoriesAndReels", value: "stre" },
+								InStream: { label: "InStream", value: "inst" },
+								AppsAndSites: { label: "AppsAndSites", value: "apsi" }
+							},
+						},
+					},
 				},
-				engagement: {
+				Engagement: {
 					label: "Engagement",
-					value: "engagement",
+					value: "eten",
 					adType: {
-						image: {
+						Image: {
 							label: "Image",
-							value: "image",
+							value: "ieim",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								feeds: { label: "Feeds", value: "feeds" },
-								storiesAndReels: { label: "Stories and Reels", value: "storiesAndReels" },
-								instream: { label: "InStream", value: "instream" },
-								search: { label: "Search", value: "search" },
-								appsAndSites: { label: "Apps and sites", value: "appsAndSites" }
-							}
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Feeds: { label: "Feeds", value: "fsfe" },
+								StoriesAndReels: { label: "StoriesAndReels", value: "stre" },
+								InStream: { label: "InStream", value: "inst" },
+								Search: { label: "Search", value: "shse" },
+								AppsAndSites: { label: "AppsAndSites", value: "apsi" }
+							},
 						},
-						video: {
+						Video: {
 							label: "Video",
-							value: "video",
+							value: "vovi",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								feeds: { label: "Feeds", value: "feeds" },
-								storiesAndReels: { label: "Stories and Reels", value: "storiesAndReels" },
-								instream: { label: "InStream", value: "instream" },
-								search: { label: "Search", value: "search" },
-								appsAndSites: { label: "Apps and sites", value: "appsAndSites" }
-							}
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Feeds: { label: "Feeds", value: "fsfe" },
+								StoriesAndReels: { label: "StoriesAndReels", value: "stre" },
+								InStream: { label: "InStream", value: "inst" },
+								Search: { label: "Search", value: "shse" },
+								AppsAndSites: { label: "AppsAndSites", value: "apsi" }
+							},
 						},
-						carousel: {
+						Carousel: {
 							label: "Carousel",
-							value: "carousel",
+							value: "clca",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								feeds: { label: "Feeds", value: "feeds" },
-								storiesAndReels: { label: "Stories and Reels", value: "storiesAndReels" },
-								instream: { label: "InStream", value: "instream" },
-								search: { label: "Search", value: "search" },
-								appsAndSites: { label: "Apps and sites", value: "appsAndSites" }
-							}
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Feeds: { label: "Feeds", value: "fsfe" },
+								StoriesAndReels: { label: "StoriesAndReels", value: "stre" },
+								InStream: { label: "InStream", value: "inst" },
+								Search: { label: "Search", value: "shse" },
+								AppsAndSites: { label: "AppsAndSites", value: "apsi" }
+							},
 						},
-						collection: {
+						Collection: {
 							label: "Collection",
-							value: "collection",
+							value: "cnco",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								feeds: { label: "Feeds", value: "feeds" },
-								storiesAndReels: { label: "Stories and Reels", value: "storiesAndReels" },
-								instream: { label: "InStream", value: "instream" },
-								search: { label: "Search", value: "search" },
-								appsAndSites: { label: "Apps and sites", value: "appsAndSites" }
-							}
-						}
-					}
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Feeds: { label: "Feeds", value: "fsfe" },
+								StoriesAndReels: { label: "StoriesAndReels", value: "stre" },
+								InStream: { label: "InStream", value: "inst" },
+								Search: { label: "Search", value: "shse" },
+								AppsAndSites: { label: "AppsAndSites", value: "apsi" }
+							},
+						},
+					},
 				},
-				sales: {
+				Sales: {
 					label: "Sales",
-					value: "sales",
+					value: "sssa",
 					adType: {
-						image: {
+						Image: {
 							label: "Image",
-							value: "image",
+							value: "ieim",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								feeds: { label: "Feeds", value: "feeds" },
-								storiesAndReels: { label: "Stories and Reels", value: "storiesAndReels" },
-								instream: { label: "InStream", value: "instream" },
-								search: { label: "Search", value: "search" },
-								appsAndSites: { label: "Apps and sites", value: "appsAndSites" }
-							}
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Feeds: { label: "Feeds", value: "fsfe" },
+								StoriesAndReels: { label: "StoriesAndReels", value: "stre" },
+								InStream: { label: "InStream", value: "inst" },
+								Search: { label: "Search", value: "shse" },
+								AppsAndSites: { label: "AppsAndSites", value: "apsi" }
+							},
 						},
-						video: {
+						Video: {
 							label: "Video",
-							value: "video",
+							value: "vovi",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								feeds: { label: "Feeds", value: "feeds" },
-								storiesAndReels: { label: "Stories and Reels", value: "storiesAndReels" },
-								instream: { label: "InStream", value: "instream" },
-								search: { label: "Search", value: "search" },
-								appsAndSites: { label: "Apps and sites", value: "appsAndSites" }
-							}
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Feeds: { label: "Feeds", value: "fsfe" },
+								StoriesAndReels: { label: "StoriesAndReels", value: "stre" },
+								InStream: { label: "InStream", value: "inst" },
+								Search: { label: "Search", value: "shse" },
+								AppsAndSites: { label: "AppsAndSites", value: "apsi" }
+							},
 						},
-						carousel: {
+						Carousel: {
 							label: "Carousel",
-							value: "carousel",
+							value: "clca",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								feeds: { label: "Feeds", value: "feeds" },
-								storiesAndReels: { label: "Stories and Reels", value: "storiesAndReels" },
-								instream: { label: "InStream", value: "instream" },
-								search: { label: "Search", value: "search" },
-								appsAndSites: { label: "Apps and sites", value: "appsAndSites" }
-							}
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Feeds: { label: "Feeds", value: "fsfe" },
+								StoriesAndReels: { label: "StoriesAndReels", value: "stre" },
+								InStream: { label: "InStream", value: "inst" },
+								Search: { label: "Search", value: "shse" },
+								AppsAndSites: { label: "AppsAndSites", value: "apsi" }
+							},
 						},
-						collection: {
+						Collection: {
 							label: "Collection",
-							value: "collection",
+							value: "cnco",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								feeds: { label: "Feeds", value: "feeds" },
-								storiesAndReels: { label: "Stories and Reels", value: "storiesAndReels" },
-								instream: { label: "InStream", value: "instream" },
-								search: { label: "Search", value: "search" },
-								appsAndSites: { label: "Apps and sites", value: "appsAndSites" }
-							}
-						}
-					}
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Feeds: { label: "Feeds", value: "fsfe" },
+								StoriesAndReels: { label: "StoriesAndReels", value: "stre" },
+								InStream: { label: "InStream", value: "inst" },
+								Search: { label: "Search", value: "shse" },
+								AppsAndSites: { label: "AppsAndSites", value: "apsi" }
+							},
+						},
+					},
 				},
-				leads: {
+				Leads: {
 					label: "Leads",
-					value: "leads",
+					value: "lsle",
 					adType: {
-						image: {
+						Image: {
 							label: "Image",
-							value: "image",
+							value: "ieim",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								feeds: { label: "Feeds", value: "feeds" },
-								storiesAndReels: { label: "Stories and Reels", value: "storiesAndReels" },
-								instream: { label: "InStream", value: "instream" },
-								search: { label: "Search", value: "search" },
-								appsAndSites: { label: "Apps and sites", value: "appsAndSites" }
-							}
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Feeds: { label: "Feeds", value: "fsfe" },
+								StoriesAndReels: { label: "StoriesAndReels", value: "stre" },
+								InStream: { label: "InStream", value: "inst" },
+								Search: { label: "Search", value: "shse" },
+								AppsAndSites: { label: "AppsAndSites", value: "apsi" }
+							},
 						},
-						video: {
+						Video: {
 							label: "Video",
-							value: "video",
+							value: "vovi",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								feeds: { label: "Feeds", value: "feeds" },
-								storiesAndReels: { label: "Stories and Reels", value: "storiesAndReels" },
-								instream: { label: "InStream", value: "instream" },
-								search: { label: "Search", value: "search" },
-								appsAndSites: { label: "Apps and sites", value: "appsAndSites" }
-							}
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Feeds: { label: "Feeds", value: "fsfe" },
+								StoriesAndReels: { label: "StoriesAndReels", value: "stre" },
+								InStream: { label: "InStream", value: "inst" },
+								Search: { label: "Search", value: "shse" },
+								AppsAndSites: { label: "AppsAndSites", value: "apsi" }
+							},
 						},
-						carousel: {
+						Carousel: {
 							label: "Carousel",
-							value: "carousel",
+							value: "clca",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								feeds: { label: "Feeds", value: "feeds" },
-								storiesAndReels: { label: "Stories and Reels", value: "storiesAndReels" },
-								instream: { label: "InStream", value: "instream" },
-								search: { label: "Search", value: "search" },
-								appsAndSites: { label: "Apps and sites", value: "appsAndSites" }
-							}
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Feeds: { label: "Feeds", value: "fsfe" },
+								StoriesAndReels: { label: "StoriesAndReels", value: "stre" },
+								InStream: { label: "InStream", value: "inst" },
+								Search: { label: "Search", value: "shse" },
+								AppsAndSites: { label: "AppsAndSites", value: "apsi" }
+							},
 						},
-						collection: {
+						Collection: {
 							label: "Collection",
-							value: "collection",
+							value: "cnco",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								feeds: { label: "Feeds", value: "feeds" },
-								storiesAndReels: { label: "Stories and Reels", value: "storiesAndReels" },
-								instream: { label: "InStream", value: "instream" },
-								appsAndSites: { label: "Apps and sites", value: "appsAndSites" }
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								Feeds: { label: "Feeds", value: "fsfe" },
+								StoriesAndReels: { label: "StoriesAndReels", value: "stre" },
+								InStream: { label: "InStream", value: "inst" },
+								AppsAndSites: { label: "AppsAndSites", value: "apsi" }
 							},
 						},
 					},
 				},
 			},
 		},
-		bing: {
+		Bing: {
 			label: "Bing",
 			value: "bing",
 			campaignType: {
-				app: {
+				App: {
 					label: "App",
-					value: "app",
+					value: "apap",
 					adType: {
-						search: {
+						Search: {
 							label: "Search",
-							value: "search",
+							value: "shse",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								syndicationNetwork: { label: "Syndication Network", value: "syndicationNetwork" },
-								audienceNetwork: { label: "Audience Network", value: "audienceNetwork" },
-								suggestedSearch: { label: "Suggested Search", value: "suggestedSearch" },
-								advertisingNetwork: { label: "Advertising Network", value: "advertisingNetwork" },
-								searchNetwork: { label: "Search Network", value: "searchNetwork" },
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								SyndicationNetwork: { label: "SyndicationNetwork", value: "syne" },
+								AudienceNetwork: { label: "AudienceNetwork", value: "aune" },
+								SuggestedSearch: { label: "SuggestedSearch", value: "shsu" },
+								AdvertisingNetwork: { label: "AdvertisingNetwork", value: "adne" },
+								SearchNetwork: { label: "SearchNetwork", value: "skse" },
 							},
 						},
-						native: {
+						Native: {
 							label: "Native",
-							value: "native",
+							value: "ntve",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								syndicationNetwork: { label: "Syndication Network", value: "syndicationNetwork" },
-								audienceNetwork: { label: "Audience Network", value: "audienceNetwork" },
-								suggestedSearch: { label: "Suggested Search", value: "suggestedSearch" },
-								advertisingNetwork: { label: "Advertising Network", value: "advertisingNetwork" },
-								searchNetwork: { label: "Search Network", value: "searchNetwork" },
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								SyndicationNetwork: { label: "SyndicationNetwork", value: "syne" },
+								AudienceNetwork: { label: "AudienceNetwork", value: "aune" },
+								SuggestedSearch: { label: "SuggestedSearch", value: "shsu" },
+								AdvertisingNetwork: { label: "AdvertisingNetwork", value: "adne" },
+								SearchNetwork: { label: "SearchNetwork", value: "skse" },
 							},
 						},
-						display: {
+						Display: {
 							label: "Display",
-							value: "display",
+							value: "dydi",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								syndicationNetwork: { label: "Syndication Network", value: "syndicationNetwork" },
-								audienceNetwork: { label: "Audience Network", value: "audienceNetwork" },
-								suggestedSearch: { label: "Suggested Search", value: "suggestedSearch" },
-								advertisingNetwork: { label: "Advertising Network", value: "advertisingNetwork" },
-								searchNetwork: { label: "Search Network", value: "searchNetwork" },
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								SyndicationNetwork: { label: "SyndicationNetwork", value: "syne" },
+								AudienceNetwork: { label: "AudienceNetwork", value: "aune" },
+								SuggestedSearch: { label: "SuggestedSearch", value: "shsu" },
+								AdvertisingNetwork: { label: "AdvertisingNetwork", value: "adne" },
+								SearchNetwork: { label: "SearchNetwork", value: "skse" },
 							},
 						},
-						video: {
+						Video: {
 							label: "Video",
-							value: "video",
+							value: "vovi",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								syndicationNetwork: { label: "Syndication Network", value: "syndicationNetwork" },
-								audienceNetwork: { label: "Audience Network", value: "audienceNetwork" },
-								suggestedSearch: { label: "Suggested Search", value: "suggestedSearch" },
-								advertisingNetwork: { label: "Advertising Network", value: "advertisingNetwork" },
-								searchNetwork: { label: "Search Network", value: "searchNetwork" },
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								SyndicationNetwork: { label: "SyndicationNetwork", value: "syne" },
+								AudienceNetwork: { label: "AudienceNetwork", value: "aune" },
+								SuggestedSearch: { label: "SuggestedSearch", value: "shsu" },
+								AdvertisingNetwork: { label: "AdvertisingNetwork", value: "adne" },
+								SearchNetwork: { label: "SearchNetwork", value: "skse" },
 							},
 						},
 					},
 				},
-				dynamic: {
+				Dynamic: {
 					label: "Dynamic",
-					value: "dynamic",
+					value: "dcdy",
 					adType: {
-						search: {
+						Search: {
 							label: "Search",
-							value: "search",
+							value: "shse",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								advertisingNetwork: { label: "Advertising Network", value: "advertisingNetwork" },
-								searchNetwork: { label: "Search Network", value: "searchNetwork" },
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								AdvertisingNetwork: { label: "AdvertisingNetwork", value: "adne" },
+								SearchNetwork: { label: "SearchNetwork", value: "skse" },
 							},
 						},
 					},
 				},
-				responsive: {
+				Responsive: {
 					label: "Responsive",
-					value: "responsive",
+					value: "rere",
 					adType: {
-						search: {
+						Search: {
 							label: "Search",
-							value: "search",
+							value: "shse",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								advertisingNetwork: { label: "Advertising Network", value: "advertisingNetwork" },
-								searchNetwork: { label: "Search Network", value: "searchNetwork" },
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								AdvertisingNetwork: { label: "AdvertisingNetwork", value: "adne" },
+								SearchNetwork: { label: "SearchNetwork", value: "skse" },
 							},
 						},
 					},
 				},
-				smart: {
+				Smart: {
 					label: "Smart",
 					value: "smart",
 					adType: {
-						smart: {
+						Smart: {
 							label: "Smart",
 							value: "smart",
 							placements: {
-								bingSmartSearch: { label: "Bing Smart Search", value: "bingSmartSearch" },
+								BingSmartSearch: { label: "BingSmartSearch", value: "bhbi" },
 							},
 						},
 					},
 				},
-				audience: {
+				Audience: {
 					label: "Audience",
-					value: "audience",
+					value: "aeau",
 					adType: {
-						native: {
+						Native: {
 							label: "Native",
-							value: "native",
+							value: "ntve",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								syndicationNetwork: { label: "Syndication Network", value: "syndicationNetwork" },
-								audienceNetwork: { label: "Audience Network", value: "audienceNetwork" },
-								suggestedSearch: { label: "Suggested Search", value: "suggestedSearch" },
-								advertisingNetwork: { label: "Advertising Network", value: "advertisingNetwork" },
-								searchNetwork: { label: "Search Network", value: "searchNetwork" },
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								SyndicationNetwork: { label: "SyndicationNetwork", value: "syne" },
+								AudienceNetwork: { label: "AudienceNetwork", value: "aune" },
+								SuggestedSearch: { label: "SuggestedSearch", value: "shsu" },
+								AdvertisingNetwork: { label: "AdvertisingNetwork", value: "adne" },
+								SearchNetwork: { label: "SearchNetwork", value: "skse" },
 							},
 						},
-						display: {
+						Display: {
 							label: "Display",
-							value: "display",
+							value: "dydi",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								syndicationNetwork: { label: "Syndication Network", value: "syndicationNetwork" },
-								audienceNetwork: { label: "Audience Network", value: "audienceNetwork" },
-								suggestedSearch: { label: "Suggested Search", value: "suggestedSearch" },
-								advertisingNetwork: { label: "Advertising Network", value: "advertisingNetwork" },
-								searchNetwork: { label: "Search Network", value: "searchNetwork" },
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								SyndicationNetwork: { label: "SyndicationNetwork", value: "syne" },
+								AudienceNetwork: { label: "AudienceNetwork", value: "aune" },
+								SuggestedSearch: { label: "SuggestedSearch", value: "shsu" },
+								AdvertisingNetwork: { label: "AdvertisingNetwork", value: "adne" },
+								SearchNetwork: { label: "SearchNetwork", value: "skse" },
 							},
 						},
-						video: {
+						Video: {
 							label: "Video",
-							value: "video",
+							value: "vovi",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								syndicationNetwork: { label: "Syndication Network", value: "syndicationNetwork" },
-								audienceNetwork: { label: "Audience Network", value: "audienceNetwork" },
-								suggestedSearch: { label: "Suggested Search", value: "suggestedSearch" },
-								advertisingNetwork: { label: "Advertising Network", value: "advertisingNetwork" },
-								searchNetwork: { label: "Search Network", value: "searchNetwork" },
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								SyndicationNetwork: { label: "SyndicationNetwork", value: "syne" },
+								AudienceNetwork: { label: "AudienceNetwork", value: "aune" },
+								SuggestedSearch: { label: "SuggestedSearch", value: "shsu" },
+								AdvertisingNetwork: { label: "AdvertisingNetwork", value: "adne" },
+								SearchNetwork: { label: "SearchNetwork", value: "skse" },
 							},
 						},
 					},
 				},
-				multimedia: {
+				Multimedia: {
 					label: "Multimedia",
-					value: "multimedia",
+					value: "mulm",
 					adType: {
-						multimedia: {
+						Multimedia: {
 							label: "Multimedia",
-							value: "multimedia",
+							value: "mulm",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								syndicationNetwork: { label: "Syndication Network", value: "syndicationNetwork" },
-								audienceNetwork: { label: "Audience Network", value: "audienceNetwork" },
-								suggestedSearch: { label: "Suggested Search", value: "suggestedSearch" },
-								advertisingNetwork: { label: "Advertising Network", value: "advertisingNetwork" },
-								searchNetwork: { label: "Search Network", value: "searchNetwork" },
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								SyndicationNetwork: { label: "SyndicationNetwork", value: "syne" },
+								AudienceNetwork: { label: "AudienceNetwork", value: "aune" },
+								SuggestedSearch: { label: "SuggestedSearch", value: "shsu" },
+								AdvertisingNetwork: { label: "AdvertisingNetwork", value: "adne" },
+								SearchNetwork: { label: "SearchNetwork", value: "skse" },
 							},
 						},
 					},
 				},
-				product: {
+				Product: {
 					label: "Product",
-					value: "product",
+					value: "ptpr",
 					adType: {
-						product: {
+						Product: {
 							label: "Product",
-							value: "product",
+							value: "ptpr",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								syndicationNetwork: { label: "Syndication Network", value: "syndicationNetwork" },
-								audienceNetwork: { label: "Audience Network", value: "audienceNetwork" },
-								suggestedSearch: { label: "Suggested Search", value: "suggestedSearch" },
-								advertisingNetwork: { label: "Advertising Network", value: "advertisingNetwork" },
-								searchNetwork: { label: "Search Network", value: "searchNetwork" },
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								SyndicationNetwork: { label: "SyndicationNetwork", value: "syne" },
+								AudienceNetwork: { label: "AudienceNetwork", value: "aune" },
+								SuggestedSearch: { label: "SuggestedSearch", value: "shsu" },
+								AdvertisingNetwork: { label: "AdvertisingNetwork", value: "adne" },
+								SearchNetwork: { label: "SearchNetwork", value: "skse" },
 							},
 						},
 					},
 				},
-				vertical: {
+				Vertical: {
 					label: "Vertical",
-					value: "vertical",
+					value: "vlve",
 					adType: {
-						search: {
+						Search: {
 							label: "Search",
-							value: "search",
+							value: "shse",
 							placements: {
-								multiplacement: { label: "Multiplacement", value: "multiplacement" },
-								syndicationNetwork: { label: "Syndication Network", value: "syndicationNetwork" },
-								audienceNetwork: { label: "Audience Network", value: "audienceNetwork" },
-								advertisingNetwork: { label: "Advertising Network", value: "advertisingNetwork" },
-								searchNetwork: { label: "Search Network", value: "searchNetwork" },
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								SyndicationNetwork: { label: "SyndicationNetwork", value: "syne" },
+								AudienceNetwork: { label: "AudienceNetwork", value: "aune" },
+								AdvertisingNetwork: { label: "AdvertisingNetwork", value: "adne" },
+								SearchNetwork: { label: "SearchNetwork", value: "skse" },
 							},
 						},
 					},
