@@ -711,13 +711,13 @@ const fieldDependencies = {
 						},
 					},
 				},
-				Responsive: {
-					label: "Responsive",
-					value: "rere",
+				Search: {
+					label: "Search",
+					value: "shse",
 					adType: {
-						Search: {
-							label: "Search",
-							value: "shse",
+						Responsive: {
+							label: "Responsive",
+							value: "rere",
 							placements: {
 								Multiplacement: { label: "Multiplacement", value: "mtmu" },
 								AdvertisingNetwork: { label: "AdvertisingNetwork", value: "adne" },
