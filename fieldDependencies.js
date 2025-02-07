@@ -836,9 +836,9 @@ const fieldDependencies = {
 				},
 			},
 		},
-				Reddit: {
+		Reddit: {
 			label: "Reddit",
-			value: "redd",
+			value: "reddit",
 			campaignType: {
 				PromotedPost: {
 					label: "PromotedPost",
@@ -883,7 +883,7 @@ const fieldDependencies = {
 							label: "ProductAds",
 							value: "prad",
 							placements: {
-								Multiplacement: { label: "Multiplacement", value: "mmpa" }
+								Multiplacement: { label: "Multiplacement", value: "mtmu" }
 							}
 						},
 						AmA: {
@@ -903,16 +903,16 @@ const fieldDependencies = {
 							label: "CategoryTakeover",
 							value: "cato",
 							placements: {
-								Multiplacement: { label: "Multiplacement", value: "mmpa" },
-								MultiplacementWithFirstView: { label: "MultiplacementWithFirstView", value: "mmfv" }
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								MultiplacementWithFirstView: { label: "MultiplacementWithFirstView", value: "mtmf" }
 							}
 						},
 						RedditTakeover: {
 							label: "RedditTakeover",
 							value: "rtta",
 							placements: {
-								Multiplacement: { label: "Multiplacement", value: "mmpa" },
-								MultiplacementWithFirstView: { label: "MultiplacementWithFirstView", value: "mmfv" }
+								Multiplacement: { label: "Multiplacement", value: "mtmu" },
+								MultiplacementWithFirstView: { label: "MultiplacementWithFirstView", value: "mtmf" }
 							},
 						},
 					},
