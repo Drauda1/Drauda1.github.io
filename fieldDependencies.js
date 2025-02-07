@@ -835,7 +835,90 @@ const fieldDependencies = {
 					},
 				},
 			},
-		},	
+		},
+				Reddit: {
+			label: "Reddit",
+			value: "redd",
+			campaignType: {
+				PromotedPost: {
+					label: "PromotedPost",
+					value: "prpo",
+					adType: {
+						FreeForm: {
+							label: "FreeForm",
+							value: "frfm",
+							placements: {
+								Feed: { label: "Feed", value: "fdfe" }
+							}
+						},
+						Image: {
+							label: "Image",
+							value: "imge",
+							placements: {
+								Feed: { label: "Feed", value: "fdfe" }
+							}
+						},
+						Video: {
+							label: "Video",
+							value: "vovi",
+							placements: {
+								Feed: { label: "Feed", value: "fdfe" }
+							}
+						},
+						Carousel: {
+							label: "Carousel",
+							value: "clca",
+							placements: {
+								Feed: { label: "Feed", value: "fdfe" }
+							}
+						},
+						Conversation: {
+							label: "Conversation",
+							value: "cnvo",
+							placements: {
+								CommentThread: { label: "CommentThread", value: "cthr" }
+							}
+						},
+						ProductAds: {
+							label: "ProductAds",
+							value: "prad",
+							placements: {
+								Multiplacement: { label: "Multiplacement", value: "mmpa" }
+							}
+						},
+						AmA: {
+							label: "AmA",
+							value: "ama",
+							placements: {
+								Feed: { label: "Feed", value: "fdfe" }
+							}
+						}
+					}
+				},
+				HighImpactOfferings: {
+					label: "HighImpactOfferings",
+					value: "hiof",
+					adType: {
+						CategoryTakeover: {
+							label: "CategoryTakeover",
+							value: "cato",
+							placements: {
+								Multiplacement: { label: "Multiplacement", value: "mmpa" },
+								MultiplacementWithFirstView: { label: "MultiplacementWithFirstView", value: "mmfv" }
+							}
+						},
+						RedditTakeover: {
+							label: "RedditTakeover",
+							value: "rtta",
+							placements: {
+								Multiplacement: { label: "Multiplacement", value: "mmpa" },
+								MultiplacementWithFirstView: { label: "MultiplacementWithFirstView", value: "mmfv" }
+							},
+						},
+					},
+				},
+			},
+		},
 	},
 };
 
